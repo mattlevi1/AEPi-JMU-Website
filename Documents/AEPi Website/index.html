@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="AEPiStyles.css">
+</head>
+<body>
+    <!-- Same navbar as index.html -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        <img src="images/logo-rectangle.png" alt="AEPi Logo" class="logo-rectangle">
+                    </a>
+                </li>
+                <li></li>
+                <!-- Regular navigation links -->
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="parent.html" class="nav-link">Parent</a></li>
+                <li class="nav-item"><a href="alumni.html" class="nav-link">Alumni</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="donate.html" class="nav-link">Donate</a></li>
+                <li></li>
+                <li></li>
+                <!-- Instagram logo linking to Instagram -->
+                <li class="nav-item">
+                    <a href="https://instagram.com/jmuaepi" class="nav-link" target="_blank">
+                        <img src="images/logo-instagram.png" alt="Instagram" class="logo-instagram">
+                    </a>
+                </li>
+            </ul>
+            
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content for this page -->
+    <main class="main-content">
+        <div class="container">
+
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="images/image-stadium.png" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="images/image-formal.JPG" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="images/image-homecoming.JPEG" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="images/image-formal2.JPG" style="width:100%">
+                </div>
+                <div class="dots-container">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+            </div>
+
+            <div class="master-message">
+                <h2 class="messsage-title">A Message From the Master</h2>
+                <div class="message-box">
+                    <div class="master-portrait">
+                        <img src="images/exec/portrait-levi.JPG" alt="Master Portrait">
+                    </div>
+                    <div class="master-text">
+                        <p>
+                            Brothers, families, and friends,
+                        </p>
+                        <p>
+                            As Master of the Omega Epsilon Chapter, I am honored to welcome you to our digital home. 
+                            Alpha Epsilon Pi has been a transformative force in my life and the lives of countless 
+                            brothers who have walked these halls before us.
+                        </p>
+                        <p>
+                            Our chapter represents more than just a fraternity—we are a brotherhood united by shared 
+                            values of leadership, scholarship, and service to our community. From our philanthropic 
+                            efforts to being recognized as JMU's Chapter of the Year, we continue to set the standard 
+                            for excellence. 
+                        </p>
+                        <p>
+                            <strong>Fraternally yours,<br>
+                            Matthew Levi<br>
+                            Master, Omega Epsilon Chapter</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <nav class="footer-nav">
+            <ul class="footer-logo-menu">
+                <li class="footer-logo-item">
+                    <a href="home.html" target="_blank" class="footer-logo-link">
+                        <img src="images/omega-epsilon.png" alt="Omega Epsilon Chapter" class="footer-logo">
+                    </a>
+                </li>
+                <li class="footer-logo-item">
+                    <a href="https://www.aepi.org" target="_blank" class="footer-logo-link">
+                        <img src="images/logo-crest.png" alt="AEPi International" class="footer-logo">
+                    </a>
+                </li>
+                <li class="footer-logo-item">
+                    <a href="https://www.jmu.edu" target="_blank" class="footer-logo-link">
+                        <img src="images/logo-jmu.png" alt="James Madison University" class="footer-logo">
+                    </a>
+                </li>
+                <li class="footer-logo-item">
+                    <a href="https://jmjews.org/" target="_blank" class="footer-logo-link">
+                        <img src="images/logo-chabad.png" alt="Chabad On Campus" class="footer-logo">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </main>
+
+    <!-- Footer with Logo Navigation -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2025 by Alpha Epsilon Pi Omega Epsilon Chapter. All Rights Reserved. Made by Brother Matthew Levi</p>
+                <p>Last updated October 10th, 2025</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="AEPiScript.js"></script>
+</body>
+</html>

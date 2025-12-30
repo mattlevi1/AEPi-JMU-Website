@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent Page</title>
+    <link rel="stylesheet" href="AEPiStyles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        <img src="images/logo-rectangle.png" alt="AEPi Logo">
+                    </a>
+                </li>
+                <li></li>
+                <!-- Regular navigation links -->
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="parent.html" class="nav-link">Parent</a></li>
+                <li class="nav-item"><a href="alumni.html" class="nav-link">Alumni</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="donate.html" class="nav-link">Donate</a></li>
+                <li></li>
+                <li></li>
+                <li class="nav-item">
+                    <a href="https://instagram.com/jmuaepi" class="nav-link" target="_blank">
+                        <img src="images/logo-instagram.png" alt="Instagram">
+                    </a>
+                </li>
+            </ul>
+            
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <h1>Parent Resources</h1>
+            <!-- Two Column Layout -->
+            <div class="parent-grid">
+                <!-- Newsletter Box -->
+                <div class="parent-box">
+                    <h2>Chapter Newsletters</h2>
+                    <p>Download our latest newsletters to stay informed about chapter activities, achievements, and upcoming events.</p>
+                    <ul class="newsletter-list">
+                        <li>
+                            <a href="newsletters/spring-2025.pdf" download class="download-link">
+                                <span class="download-icon">📄</span>
+                                <span class="download-text">Fall 2025 Newsletter</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Family Weekend Events Box -->
+                <div class="parent-box">
+                    <h2>Family Weekend Events</h2>
+                    <p>Join us for Family Weekend 2025! Mark your calendars for these special events.</p>
+                    <div class="event-list">
+                        <div class="event-item">
+                            <div class="event-date">Friday, September 26</div>
+                            <div class="event-name">Family Cookout</div>
+                            <div class="event-time">6:00 PM - 9:00 PM</div>
+                            <div class="event-location">152 W Wolfe St</div>
+                        </div>
+                        <div class="event-item">
+                            <div class="event-date">Saturday, September 27</div>
+                            <div class="event-name">Football Tailgate</div>
+                            <div class="event-time">10:00 AM - 1:00 PM</div>
+                            <div class="event-location">R1 Student Lot</div>
+                        </div>
+                        <div class="event-item">
+                            <div class="event-date">Saturday, October 18</div>
+                            <div class="event-name">JMU Football Watch Party</div>
+                            <div class="event-time">1:30 PM - 5:30 PM</div>
+                            <div class="event-location">1552 Sour Cherry St</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Email Subscription Box -->
+            <div class="subscription-box">
+                <h2>Subscribe to Updates</h2>
+                <p>Stay informed about chapter news, events, and important announcements. Subscribe to our
+                    mailing list.</p>
+
+                <form class="subscription-form" id="subscription-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="relation">Relation to Chapter</label>
+                            <select id="relation" name="relation" required>
+                                <option value="">Select...</option>
+                                <option value="parent">Parent</option>
+                                <option value="alumni">Alumni</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <button type="submit" class="subscribe-button">Subscribe to Email Updates</button>
+                </form>
+            </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2025 by Alpha Epsilon Pi Omega Epsilon Chapter. All Rights Reserved. Made by Brother Matthew Levi</p>
+                <p>Last updated October 10th, 2025</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="AEPiScript.js"></script>
+</body>
+</html>
